@@ -52,12 +52,16 @@
 
 	__webpack_require__(30);
 
+	var _index = __webpack_require__(34);
+
+	var _index2 = _interopRequireDefault(_index);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var template = "<div class=\"container\">\u5B50\u7C7B\u8986\u76D6</div>";
+	// let template = `<div class="container">子类覆盖</div>`
 
 	var comp = _regularjs2.default.extend({
-	    template: template,
+	    template: _index2.default,
 	    config: function config(data) {
 	        console.log("this is config");
 	    },
@@ -6036,6 +6040,15 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"main\">\r\n    <div>111</div>\r\n    <div>222</div>\r\n</div>"
 
 /***/ }
 /******/ ]);

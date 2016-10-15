@@ -1,6 +1,7 @@
 import Regular from "regularjs"
 import '../css/entry.css'
-let template = `<div class="container">子类覆盖</div>`
+import template from "raw!../template/index.html"
+// let template = `<div class="container">子类覆盖</div>`
 
 var comp = Regular.extend({
     template,
