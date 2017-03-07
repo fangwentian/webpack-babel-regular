@@ -7,4 +7,7 @@ describe('basic test', function() {
     it('2+3=5', function() {
         expect(2+3).to.be.equal(5);
     });
+    it('5+8=13', function() {
+        expect(5+8).to.be.equal(13);
+    });
 })
