@@ -14,4 +14,13 @@ describe('basic test', function() {
     it('add', function() {
         expect(math.add(1,1)).to.be.equal(2);
     });
+    it('minus', function() {
+        expect(math.minus(5,2)).to.be.equal(3);
+    });
+    it('plus', function() {
+        expect(math.plus(3,3)).to.be.equal(9);
+    });
+    it('divide', function() {
+        expect(math.divide(10,2)).to.be.equal(5);
+    });
 })
