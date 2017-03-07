@@ -8,6 +8,6 @@ describe('basic test', function() {
         expect(2+3).to.be.equal(5);
     });
     it('5+8=13', function() {
-        expect(5+8).to.be.equal(12);
+        expect(5+8).to.be.equal(13);
     });
 })
