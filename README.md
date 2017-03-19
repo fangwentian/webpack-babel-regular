@@ -2,7 +2,7 @@
 
 [![Build Status][travis-image]][travis-url] [![Coveralls][coveralls-image]][coveralls-url]
 
-webpack-babel-regularjs 的基础setup
+webpack-babel-regularjs 的基础setup.
 
  [travis-url]: https://travis-ci.org/fangwentian/webpack-babel-regular
  [travis-image]: https://img.shields.io/travis/fangwentian/webpack-babel-regular.svg
